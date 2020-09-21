@@ -1,0 +1,99 @@
+  .content .goods{
+    margin-top: .4444rem /* 20/45 */
+  }
+  .content .goods .detailcontent{
+    padding: .6667rem .5rem;
+    /* height: 4.2222rem */
+    border-top: 1px solid #e6e6e6;
+    margin-bottom: .4444rem /* 20/45 */;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .content .goods .detailcontent img{
+    width: 3.3333rem /* 150/45 */;
+    height: 3.3333rem /* 150/45 */;
+    /* float: left; */
+  }
+  .content .goods .detailcontent .goodsname{
+    /* width: 75%; */
+    /* float: left; */
+    flex: 1;
+    /* height: 3.3333rem; */
+    line-height: 1.2rem;
+    padding-left: .6667rem /* 30/45 */;
+  }
+  .content .goods .detailcontent .goodsname .line{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: .1rem; */
+  }
+  .content .goods .detailcontent .goodsname .godname{
+    font-size: .7111rem /* 32/45 */;
+    color: #212121;
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    height: 1.0667rem 48/45 */
+  }
+  .content .goods .detailcontent .goodsname .price {
+    font-size: .6222rem /* 28/45 */;
+    color: #212121;
+}
+  .content .goods .detailcontent .goodsname .godnum{
+    font-size: .5333rem /* 24/45 */;
+    color: #666666;
+  }
+  .content .goods .detailcontent .goodsname .num{
+    font-size: .5333rem /* 24/45 */;
+    color: #666666;
+  }
+
+  .content .reason{
+    background: #fff;
+    font-size: .6667rem /* 30/45 */;
+    color: #212121;
+    padding: .4444rem /* 20/45 */ .5556rem /* 25/45 */;
+    margin-bottom: .4444rem /* 20/45 */;
+  }
+  .content .reason .details{
+    height: 3.3333rem /* 150/45 */;
+    border-bottom: 1px solid #e9e9e9;
+     display: flex;
+  }
+  .content .reason .details textarea {
+    width: 70%;
+    font-size: .6667rem /* 30/45 */
+  }
+  .content .reason .money{
+    height: 2rem /* 90/45 */;
+    line-height:2rem;
+    margin-top: .2222rem /* 10/45 */;
+  }
+  .content .others{
+    background: #fff;
+    padding-left: .5rem ;
+  }
+  .content .others .ordernum{
+    color: #333333;
+    font-size: .6667rem /* 30/45 */;
+    border-bottom: 1px solid #e9e9e9;
+    height: 1.7778rem /* 80/45 */;
+    line-height: 1.7778rem;
+  }
+  .content .others .seven{
+    color: #666666;
+    font-size: .6222rem /* 28/45 */;
+    height: 1.7778rem /* 80/45 */;
+    line-height: 1.7778rem;
+  }
+  .global .content .btnwrapreturn .btn {
+    width: 100%;
+    height: 1.7778rem /* 80/45 */;
+    font-size: .7111rem /* 32/45 */;
+    background-color: #ff5558;
+    color: #fff ;
+    position: fixed;
+    bottom: 0;
+  }

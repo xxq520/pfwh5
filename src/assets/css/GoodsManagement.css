@@ -1,0 +1,269 @@
+/* topnav */
+.mint-header-button{-webkit-box-flex:.1;-ms-flex:.1;flex:.1;font-size: 0.6667rem;}
+.searhed{margin:0 auto;padding:0.18rem 0;background:#f5f5f5;border-radius:2em;width:12.8444rem;-moz-box-shadow:1px 1px 3px #e3e3e3 inset;-webkit-box-shadow:1px 1px 3px #e3e3e3 inset;box-shadow:1px 1px 3px #e3e3e3 inset;}
+.searhed input{background:transparent;float:left;width:9rem;height: .9rem;font-size:14px;}
+.searhed i.el-icon-search{float:left;color:#9c9c9c;padding-right:0.2rem;line-height:1.2em;padding-left: 0.5333rem;}
+.searhed i.el-icon-circle-close{float:right;color:#9c9c9c;line-height:1.2em;}
+.mint-header-button{float:right;color:#666;}
+.mint-header{font-size: .7556rem /* 34/45 */;background-color: #fff;color: #000}
+.search {font-size: 0.6667rem;color: #666}
+.goods-management{
+    background:#F1F2F5;
+}
+/* 没有数据 */
+.noData {
+  overflow: hidden;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ccc;
+}
+/* main */
+.main{
+    position: relative;
+    overflow-y: auto;
+    /* margin-top:0.4444rem; */
+    padding-top: 0.4444rem;
+    box-sizing: border-box;
+}
+.main .pro-list{
+    position: relative;
+    /* padding-bottom:5rem; */
+}
+.main .pro-list .pro-item{
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 0.5333rem;
+    padding-left: 1.0667rem;
+    background: #fff;
+    border-bottom:1px solid #f9f9f9;
+    position: relative;
+    transition: all .2s linear;
+}
+.main .pro-list .pro-item .pro-main{
+  display: flex;
+  justify-content: space-between;
+}
+.main .pro-list .pro-item:last-child{
+    border-bottom:0;
+}
+.main .pro-list .pro-item .pro-img{
+    height:4rem;
+    width:4rem;
+    margin-right: 0.5333rem;
+}
+.main .pro-list .pro-item .pro-img img{
+    height:100%;
+    width:100%;
+}
+.main .pro-list .pro-item .pro-desc{
+    flex: 1;
+}
+.main .pro-list .pro-item .pro-desc .pro-title{
+    font-size: 0.6667rem;
+    color:#333333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    /* width: 5.1111rem; */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0.2222rem;
+}
+.main .pro-list .pro-item .pro-desc .pro-price{
+    font-size: 0.7111rem;
+    color:#E43A3D;
+    padding-bottom: 0.2222rem;
+}
+.main .pro-list .pro-item .pro-desc .pro-stock{
+    font-size: 0.5333rem;
+    color:#666;
+}
+.main .pro-list .pro-item .isUp{
+    position: absolute;
+    right: 0.5333rem;
+    bottom: 0.8889rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* z-index: 1; */
+}
+.main .pro-list .pro-item .isUp .isUpIcon{
+    width:0.9778rem;
+    height:0.9778rem;
+    display: block;
+    margin-bottom: 0.2222rem;
+}
+.main .pro-list .pro-item .isUp .isUpIcon img{
+    width:100%;
+    height:100%;
+}
+.main .pro-list .pro-item .isUp .isUpTitle{
+    display: block;
+    font-size: 0.4889rem;
+    color:#999;
+}
+/* 编辑商品 */
+.goodsManagementBox{
+    height: 1.7778rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    left: 0;
+}
+.goodsManagementBox a{
+    flex: 1;
+    color:#fff;
+    background: #F5690C;
+    font-size: 0.6667rem;
+    height: 100%;
+    text-align: center;
+    line-height: 1.7778rem;
+}
+.goodsManagementBox a:last-child{
+    background: #F5A00C;
+}
+/* 操作按钮tab */
+.operationTab {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid #F9F9F9;
+  width: 100%;
+  background: #fff;
+  padding: 0.2222rem 0;
+}
+.operationTab button {
+  padding: 0.2222rem 0.4444rem;
+  border: none;
+  outline: none;
+  background: #fff;
+  text-align: center;
+  font-size: 0.5333rem;
+  color: #939397;
+  border: 1px solid #ddd;
+  border-radius:4px;
+  margin-left: 0.4444rem;
+}
+
+/* .operationTab button:first-child {
+  border-right: 1px solid #DCDCDC;
+} */
+
+.operationTab .choosed {
+  color: #fff;
+  background: #FF0025;
+}
+/* 上下架Tab */
+.UpperTab {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5333rem 0;
+  border-bottom: 1px solid #F9F9F9;
+  width: 100%;
+  background: #fff;
+}
+.UpperTab button {
+  border: none;
+  outline: none;
+  background: #fff;
+  text-align: center;
+  flex: 1;
+  height: 0.4889rem;
+  line-height: 0.4889rem;
+  font-size: 0.5333rem;
+  color: #939397;
+}
+.UpperTab button:first-child {
+  border-right: 1px solid #DCDCDC;
+}
+.UpperTab .choosed {
+  color: #FF0025;
+}
+/* 单选/全选 */
+  .setcheck span {
+    font-size: 0.6222rem;
+    margin-left: 0.4444rem;
+    margin-top: 0.2222rem;
+  }
+  .checked {
+    width: .6666rem;
+    height: .6666rem;
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    margin-top: -.3333rem;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 50%;
+    color: white;
+    font-size: .6666rem;
+    line-height: .6666rem;
+  }
+  .checked.hover {
+    background: red;
+    border-color: red;
+  }
+  .addToStoreCount .setcheck {
+    float: left;
+    padding: 0 10px;
+    height: 50px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .addToStoreCount .setmoney {
+    float: right;
+    line-height: 50px;
+    padding-right: 0.4rem;
+  }
+  .addToStoreCount .setmoney i {
+    font-size: 0.65rem;
+    color: #e4393c;
+  }
+  .addToStoreCount .setbut {
+    float: right;
+    padding: 0 0.5rem;
+    line-height: 50px;
+    color: white;
+    background: #e4393c;
+  }
+  .addToStoreBox {
+    z-index: 1;
+    height: 2.1778rem;
+    width: 100%;
+    border-top: 1px solid #f9f9f9;
+    position: fixed;
+    background: #fff;
+    bottom: 55px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .addToStoreBox .addToStoreCount {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.6667rem;
+    padding: 0 1.0667rem 0 0.5333rem;
+    align-items: center;
+  }
+  .addToStoreBox .addToStoreBtnBox {
+    width: 5.7778rem;
+    height: 100%;
+  }
+  .addToStoreBox .addToStoreBtnBox .addToStoreBtn {
+    font-size: 0.6667rem;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #ff0025;
+    line-height: 2.1778rem;
+    text-align: center;
+  }

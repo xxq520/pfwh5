@@ -1,0 +1,101 @@
+
+.content .tips {
+    width: 100%;
+    height: 2.6667rem/* 120/45 */;
+    background-color: #f6f6f6;
+    font-size: .5333rem/* 24/45 */;
+    border-top: .0222rem/* 1/45 */ solid #adadad;
+}
+
+.content .tips .tipscontent {
+    width: 7.1111rem /* 320/45 */;
+    height: 100%;
+    overflow: hidden;
+    margin: .6667rem /* 30/45 */ auto;
+}
+
+.content .tips img {
+    width: 1.2222rem/* 55/45 */;
+    height: 1.3333rem/* 60/45 */;
+    float: left;
+}
+
+.content .tips .text {
+    float: right;
+    padding-left: .2rem /* 15/45 */;
+}
+/* 表单输入 */
+.btform{
+    width: 14.2222rem /* 640/45 */;
+    margin: 2rem auto;
+}
+.btform img{
+    width: 1.5rem;
+    height: .7778rem /* 35/45 */;
+}
+.btform .tel{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+}
+.btform .codewrap .code {
+    /* height: 1.7778rem 80/45; */
+    display: flex;
+    align-items: center;
+    margin-top: 1rem /* 45/45 */;
+}
+.btform .ycode{
+    /* height: 1.7778rem 80/45; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dddddd;
+    margin-top: 1rem /* 45/45 */;
+}
+
+.btform .codewrap{
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 1px solid #dddddd;
+}
+.btform .inoutcode{
+    width: 5rem;
+    color: #f46868;
+    font-size: .6222rem /* 28/45 */;
+    border: .0222rem /* 1/45 */ solid #ff5558;
+    border-radius:  .8889rem .8889rem;
+    padding: .3778rem /* 17/45 */ .6667rem /* 30/45 */ ;
+}
+.btform .btn {
+    width: 14rem /* 630/45 */;
+    height: 2rem /* 90/45 */;
+    font-size: .7111rem /* 32/45 */;
+    background-color: #ff5558 !important;
+    margin-top: 1.3333rem /* 60/45 */;
+    border-radius: 20px !important;
+    color: #fff !important;
+}
+.content .btform .mint-field-core {
+    font-size: .6222rem /* 28/45 */;
+    color: #666;
+}
+#showconten{
+    width: 15.3333rem /* 690/45 */;
+}
+#closebtn{
+    color: #ff5558;
+    width: 2.2222rem /* 100/45 */;
+    height: 2.2222rem /* 100/45 */;
+    margin-top: .8889rem /* 40/45 */;
+    margin-left: 46.5%;
+}
+.popcontent{
+    display: flex;
+    flex-direction: row;
+}
+.popcontent img{
+    width: 6.5778rem /* 296/45 */;
+    height: 7.3778rem /* 332/45 */;
+}
+.popcontent img:nth-child(2){
+    margin-left: 2.1111rem /* 95/45 */;
+}

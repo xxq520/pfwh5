@@ -1,0 +1,281 @@
+.orderdetail .btnwrap #pay{
+    color: #FF6023;
+    background-color: #fff;
+    border: 1px solid #FF6023;
+}
+.other{
+
+}
+.orderItemCon{
+    font-size:0.59rem;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(102,102,102,1) !important;
+}
+.orderItem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.3rem;
+}
+.orderItemTit{
+    font-size:0.64rem;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+}
+.orderdetail .detailcontent{
+    background-color: #FBF8FB;
+}
+.orderdetail .other{
+    padding-bottom: 0.1rem;
+}
+.orderdetail .detailtop .changestate{
+    color:rgba(255,96,35,1);
+    margin-top: 0;
+}
+.orderdetail .detailtop{
+    display: flex;
+    justify-content: space-between;
+}
+.blockOrder .orderdetail .detailtop{
+    border-bottom: none;
+}
+.blockOrder .godname{
+    font-size:0.7rem;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(51,51,51,1);
+}
+.blockOrder .totalgood{
+    margin-top: 0;
+}
+.detailtop{
+}
+.orderdetail .detailtop .ordernum{
+    font-size:0.68rem;
+    font-family:PingFang SC;
+    font-weight:500;
+    color:rgba(65,65,65,1);
+}
+.orderdetail .detailcontent #gg{
+    border-bottom: none;
+    height: 3.9rem;
+}
+span.orderTypeTab {
+    float: right;
+    border-radius: 4px;
+    color: #fff;
+    text-align: right;
+    font-size: 0.6rem;
+    font-family: PingFang SC;
+    background-color: transparent !important;
+    border: none;
+}
+
+.orderTypeTab img {
+    margin-right: 0.1rem;
+    width: 0.57rem;
+    height: 0.59rem;
+    vertical-align: middle;
+}
+#filterwrap{
+    padding-top: 46px !important;
+}
+.myorder .mint-header{
+    z-index: 10000;
+    background:linear-gradient(-90deg,rgba(255,94,35,1),rgba(255,119,37,1));
+    color: #fff;
+}
+.exitGood{
+    display: flex;
+    width: 7rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    font-size: 0.5rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 0.4rem;
+}
+.exitGood div{
+    width: 50%;
+    text-align: center;
+}
+.activGood{
+    background:rgba(255,96,35,1) !important;
+    color: #fff !important;
+}
+.orderdetail .shorter{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .5778rem /* 26/45 */;
+    color: #666;
+    margin-top: .6667rem /* 30/45 */;
+    width: 100%;
+    text-align: right;
+}
+.myorder .isFixed{
+    position: fixed;
+    top: 0px;
+    z-index: 4;
+    width: 100%;
+    height:auto;
+    overflow-y: auto;
+}
+.myToast{
+    z-index: 99999999;
+}
+.timetoast{
+    z-index: 99999999;
+}
+.active{
+    background: rgba(255,238,231,1) !important;
+    color:rgba(255,96,35,1) !important;
+}
+.nodata{
+    overflow:hidden;
+    padding:1rem;
+    text-align: center;
+    font-size:0.8rem;
+    font-weight:bold;
+    color:#ccc;
+}
+/* 立即支付弹窗组件 */
+.payment{
+    overflow:hidden;
+    font-size:0.65rem;
+}
+.payment .surebtn{
+    display: flex;
+    justify-content: center;
+}
+.payment .surebtn .btn{
+    background: #ff0025;
+    color: #fff;
+    width: 100%;
+    margin:0.6rem 0.3rem;
+}
+.payment .pay-title{
+    overflow:hidden;
+    padding:10px;
+    text-align: center;
+    line-height:1.2em;
+    position:relative;
+    padding:0.6rem 0;
+    border-bottom:1px solid #dcdcdc;
+}
+.close{
+    position:absolute;
+    right:10px;
+    top:10px;
+    font-size:1rem;
+    color:#999;
+}
+.amount{
+    overflow:hidden;
+    border-bottom:1px solid #dcdcdc;
+    line-height:1.2em;
+    padding:0.9rem 0;
+    text-align: center;
+}
+.amount span{
+    display:block;
+    font-size:0.6rem;
+    color:#999;
+    margin-bottom:0.2rem;
+}
+.amount p{
+    display:block;
+    font-size:0.9rem;
+    color:#ff0025;
+}
+.ways{
+    overflow:hidden;
+    border-bottom:1px solid #dcdcdc;
+    padding:0.9rem 10px;
+    position:relative;
+}
+.ways p{
+    float:left;
+    line-height:1.4em;
+}
+.ways span{
+    font-size:1rem;
+    position:absolute;
+    right:10px;
+    top:calc((100% - 1.2em)/2);
+    line-height:1.2em;
+    color:#e43a3d;
+}
+.counttc{
+    z-index:999999
+}
+.titleFs{
+    font-size:0.59rem !important;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+.buttonNew{
+    background:rgba(239,239,239,1);
+    font-size: 0.6222rem !important;
+    color:rgba(153,153,153,1) !important;
+}
+.payBtn{
+    background:rgba(239,239,239,1);
+    font-size:0.59rem;
+    font-family:PingFang SC;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    width: 4rem !important;
+    padding: 0 1rem;
+    display: block;
+    margin-bottom: 0.6rem;
+}
+.over{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.pay{
+    border-bottom: none !important;
+}
+.filterend{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    right: 0;
+    display: flex;
+    height: 2rem !important;
+    line-height: 1rem !important;
+}
+#reset{
+    width: 40% !important;
+    background: #Fff;
+    height: 2rem !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+}
+#sure{
+    border-radius: 0 !important;
+    width: 60% !important;
+    padding: 0 !important;
+    background:rgba(255,96,35,1) !important;
+    height: 2rem !important;
+    margin: 0 !important;
+    color:rgba(255,255,255,1) !important;
+}
+.filterpopup #filterwrap .filterend{
+    right: 0 !important;
+}
+.topnav ul li.lihover{
+    color: #FF6023FF;
+}
+.topnav ul li i{
+    background: #FF6023FF;
+}

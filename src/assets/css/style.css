@@ -1,0 +1,72 @@
+.small-btn{
+    background-color:transparent;
+    border:0 none;
+    box-shadow: none;
+    font-size:.5333rem;
+    outline-style: none;
+}
+.large-btn{
+    color:#fff;
+    text-align: center;
+    background-color:#fa946d;
+}
+.btn-radius{
+    height:1.9778rem;
+    border-radius:1.9778rem;
+}
+/* 获取短信按钮 */
+.code-btn{
+    padding:0 .3333rem;
+    height:1.0667rem;
+    border-radius:1.0667rem;
+    background-color:#fafafa;
+    color:#ff6023 !important;
+}
+.mint-cell-wrapper{
+    background-image:none;
+}
+/* 用户输入框 */
+.label{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.label .area-code{
+    font-size:.7111rem;
+    color:#010101;
+}
+.label .inputs{
+    flex:9;
+    font-size:.6667rem;
+    background-image:none;
+}
+.input-label{
+    border-bottom:1px solid #dcdcdc;
+}
+.btn-cur{
+    background-color:#ff6023;
+}
+/* 顶部导航栏 */
+.mt-headers{
+    color:#fff;
+    background:linear-gradient(to right,#ff7725,#ff5e23);
+}
+/* 内容区 */
+.main{
+    padding:0 1.3333rem;
+}
+/* 协议 */
+.agreement-con{
+    display:flex;
+    align-items: center;
+    font-size:.5333rem;
+    color:#212121;
+}
+.agreement-con .iconfont{
+    font-size:.5778rem;
+    color:#c5c5c5;
+    margin-right:.2222rem;
+}
+.agreement-con .orange{
+    color:#ff7325;
+}

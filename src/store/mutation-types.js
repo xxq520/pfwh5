@@ -1,0 +1,1 @@
+export const SAVE_USER_STATUS = 'save_user_status';

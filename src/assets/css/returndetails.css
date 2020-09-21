@@ -1,0 +1,104 @@
+.content .title{
+  height: 4.6667rem /* 210/45 */;
+  background: #fd4848;
+  font-size: .5778rem /* 26/45 */;
+  color: #fff;
+  padding: 1.1111rem /* 50/45 */ .5556rem /* 25/45 */;
+}
+.content .title span:first-child{
+  font-size: .6667rem /* 30/45 */;
+  margin-bottom: .6667rem /* 30/45 */;
+}
+.content .title span{
+  display: block;
+}
+.content .returnmoney{
+  background-color:#fff;
+  height:4.4444rem /* 200/45 */;
+  padding-right: .5rem;
+}
+.content .returnmoney .totalm{
+ display: flex;
+ justify-content: space-between;
+}
+.content .returnmoney .bank{
+ display: flex;
+ justify-content: space-between;
+}
+.content .returnmoney span{
+  display: block;
+  font-size: .6222rem /* 28/45 */;
+  color:#333333;
+  height: 2.2222rem /* 100/45 */;
+  line-height: 2.2222rem /* 100/45 */;
+  padding-left: .5rem;
+}
+.content .returnmoney span:first-child{
+  border-bottom: 1px solid #e9e9e9;
+}
+/* 退款进度条 */
+
+
+.content .details{
+  background-color: #fff;
+}
+.content .details .detailtitle {
+  font-size: .6667rem /* 30/45 */;
+  color: #212121;
+  height: 2.2222rem /* 100/45 */;
+  padding-left: .5rem;
+  line-height: 2.2222rem;
+  border-bottom: 1px solid #e9e9e9;
+}
+.content .details .goods{
+  min-height: 4.4444rem /* 200/45 */;
+  padding: .5rem;
+  padding-bottom: .3333rem /* 15/45 */;
+  border-bottom: 1px solid #e9e9e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .goods img{
+  width: 3.3333rem /* 150/45 */;
+  height: 3.3333rem /* 150/45 */;
+  /* float: left; */
+}
+.content .goods .goodsname{
+  /* width: 75%; */
+  /* float: left; */
+  /* height: 1rem; */
+  /* line-height: 1rem; */
+  padding-left: .6667rem /* 30/45 */
+}
+.content .goods .goodsname .linee{
+  display: flex;
+  justify-content: space-between;
+  margin-top: .1rem;
+  padding-bottom: .3333rem /* 15/45 */;
+}
+.content .goods .goodsname .godname{
+  font-size: .7111rem /* 32/45 */;
+  color: #212121;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.content .goods .goodsname .godnum{
+  font-size: .5333rem /* 24/45 */;
+  color: #666666;
+}
+.content .details .returndetails{
+  font-size: .5333rem /* 24/45 */;
+  color: #999999;
+  padding-left: .5rem;
+  padding-top: .6667rem /* 30/45 */;
+  padding-bottom: 2.8889rem /* 130/45 */;
+}
+.content .details .returndetails div{
+  line-height: 1.1111rem /* 50/45 */;
+  margin-bottom: .0444rem /* 2/45 */
+}
+
